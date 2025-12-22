@@ -1,0 +1,64 @@
+         *{
+                  margin:0;
+                padding:0;
+            }
+            .header{
+                display:flex;
+                position:sticky;
+                top:0;
+                width:100vw;
+                height: 60px;
+                z-index: 2;
+                box-shadow: 0 2px 10px rgb(0 0 0 / 11%);
+            }
+            .hbox3{
+                background-color: teal;
+                color:white;
+                margin:10px;
+                padding-right: 6px;
+                padding-left: 6px;
+                align-content: center;
+                border-radius: 2px;
+            }
+            .hbox1{
+                margin-right:800px;
+                align-content: center;
+            }
+            .hbox2{
+                color: grey;
+                align-content: center;
+                border: 1px solid grey;
+                margin: 10px;
+                padding: 0px 6px;
+            }
+            .hbox4 , .hbox5{
+                color: grey;
+                align-content: center;
+                border-right: 1px solid grey;
+                margin: 10px 0px;
+                padding: 0px 6px;
+            }
+            .hbox6{
+                color:grey;
+                align-content: center;
+                margin: 10px;
+                padding: 0px 6px;
+            }
+            .belowh1{
+                margin-top:25px;
+                width:316px;
+                height:42px;
+                background-color: #FCB24433;
+                margin:auto;
+                display: flex;
+                justify-content: space-around;
+            }
+            .bh1 , .bh2{
+                align-content: center;
+                color: grey;
+            }
+            .bh1{
+                border-right:1px solid grey;
+                padding-right: 30px;
+                margin: 10px 0px;
+            }
