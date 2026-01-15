@@ -132,33 +132,12 @@ h1 {
 }
 .img-div-1 {
   margin-top: 40px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   justify-content: space-evenly;
   align-items: center;
-  gap: 20px;
-}
-.feature-card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  width: 220px;
-  transition: all 0.3s ease-in-out;
-}
-.feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-.feature-card img {
-  height: 75px;
-  width: auto;
-  margin-bottom: 15px;
-}
-.feature-card p {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
+  justify-items: center;
 }
 
 .grid-div-1 {
