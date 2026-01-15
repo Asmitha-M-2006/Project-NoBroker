@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Console", monospace; 
+  font-family: "Source sans pro", sans-serif; 
 }
 .header {
   display: flex;
@@ -42,14 +42,14 @@
 
 .menu ul li {
   list-style: none;
-  margin-left: 60px;
+  margin-left: 55px;
   margin-top: 20px;
   font-size: 15px;
 }
 .menu ul li a {
   text-decoration: none;
   color: black;
-  font-family: "Lucida Console", monospace;
+  font-family: "Source sans pro", sans-serif;
   font-weight: 595;
   transition: 0.3s ease-in-out;
 }
@@ -95,7 +95,7 @@ h1 {
   float: left;
 }
 .search-bar .srch {
-  font-family: "Lucida Console", monospace;
+  font-family: "Source sans pro", sans-serif;
   width: 410px;
   background: transparent;
   border: 1px solid grey;
@@ -127,7 +127,7 @@ h1 {
   text-align: center;
   margin-top: 100px;
   padding-top: 7px;
-  font-family: "Courier New", monospace;
+  font-family: "Source sans pro", sans-serif;
   font-size: 1.3rem;
 }
 .img-div-1 {
