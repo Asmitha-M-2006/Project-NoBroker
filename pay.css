@@ -57,11 +57,6 @@ body {
   color: #ff0055;
 }
 
-/* .logo {
-  color: #e3324a;
-  font-weight: bold;
-  font-size: 20px;
-} */
 .container {
   max-width: 1100px;
   margin: auto;
@@ -155,9 +150,5 @@ button:hover {
 @media (max-width: 600px) {
   .left h1 {
     font-size: 24px;
-  }
-  header {
-    flex-direction: column;
-    gap: 8px;
   }
 }
