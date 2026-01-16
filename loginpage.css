@@ -48,7 +48,7 @@
   transition: 0.3s ease-in-out;
 }
 .menu ul li a:hover {
-  color: #ff0055;
+  color: #e3324a;
 }
 
 .menu-icon {
@@ -71,11 +71,13 @@
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 fieldset {
   padding: 30px;
-  border: 1.5px solid #ff0055;
+  border: 1.5px solid #e3324a;
+  border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -94,7 +96,7 @@ input {
 
 button {
   padding: 10px;
-  background-color: #ff0055;
+  background-color: #e3324a;
   color: white;
   font-family: "Source sans pro", sans-serif;
   border: none;
@@ -103,6 +105,10 @@ button {
   display: block;
   margin-left: auto;
   margin-right: 0;
+}
+button:hover{
+  cursor:pointer;
+  background-color: #ff0055;
 }
 
 @media screen and (max-width: 950px) {
